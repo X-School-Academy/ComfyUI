@@ -158,8 +158,8 @@ ComfyUI follows a weekly release cycle every Friday, with three interconnected r
 ## CPU Only for GitHub Codespaces
 
 ```bash
-git clone https://github.com/X-School-Academy/ComfyUI.git
-cd ComfyUI
+git clone https://github.com/X-School-Academy/X-ComfyUI.git
+cd X-ComfyUI
 
 # Setup virtual project environment
 python -m venv venv_comfyui
