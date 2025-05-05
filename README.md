@@ -195,7 +195,7 @@ See the [Config file](extra_model_paths.yaml.example) to set the search paths fo
 
 ## Jupyter Notebook
 
-To run it on services like paperspace, kaggle or colab you can use my [Jupyter Notebook](notebooks/comfyui_colab.ipynb)
+To run it on services like paperspace, kaggle or colab you can use [Jupyter Notebook](notebooks/comfyui_colab.ipynb)
 
 
 ## [comfy-cli](https://docs.comfy.org/comfy-cli/getting-started)
