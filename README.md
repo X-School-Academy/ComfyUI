@@ -44,7 +44,7 @@ ComfyUI lets you design and execute advanced stable diffusion pipelines using a 
 - Available on Windows.
 
 #### [Manual Install](#manual-install-windows-linux)
-Supports all operating systems and GPU types (NVIDIA, AMD, Intel, Apple Silicon, Ascend).
+Supports all operating systems, CPU Only and GPU types (NVIDIA, AMD, Intel, Apple Silicon, Ascend).
 
 ## [Examples](https://comfyanonymous.github.io/ComfyUI_examples/)
 See what ComfyUI can do with the [example workflows](https://comfyanonymous.github.io/ComfyUI_examples/).
