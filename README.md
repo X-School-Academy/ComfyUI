@@ -43,7 +43,7 @@ ComfyUI lets you design and execute advanced stable diffusion pipelines using a 
 - Get the latest commits and completely portable.
 - Available on Windows.
 
-#### [Manual Install](#manual-install-windows-linux)
+#### [Manual Install](#manual-install-windows-linux-mac)
 Supports all operating systems, CPU Only and GPU types (NVIDIA, AMD, Intel, Apple Silicon, Ascend).
 
 ## [Examples](https://comfyanonymous.github.io/ComfyUI_examples/)
@@ -297,7 +297,7 @@ After this you should have everything installed and can proceed to running Comfy
 
 ### Others:
 
-> **Note**: Remember to add your models, VAE, LoRAs etc. to the corresponding Comfy folders, as discussed in [ComfyUI manual installation](#manual-install-windows-linux).
+> **Note**: Remember to add your models, VAE, LoRAs etc. to the corresponding Comfy folders, as discussed in [ComfyUI manual installation](#manual-install-windows-linux-mac).
 
 #### DirectML (AMD Cards on Windows)
 
@@ -310,7 +310,7 @@ For models compatible with Ascend Extension for PyTorch (torch_npu). To get star
 1. Begin by installing the recommended or newer kernel version for Linux as specified in the Installation page of torch-npu, if necessary.
 2. Proceed with the installation of Ascend Basekit, which includes the driver, firmware, and CANN, following the instructions provided for your specific platform.
 3. Next, install the necessary packages for torch-npu by adhering to the platform-specific instructions on the [Installation](https://ascend.github.io/docs/sources/pytorch/install.html#pytorch) page.
-4. Finally, adhere to the [ComfyUI manual installation](#manual-install-windows-linux) guide for Linux. Once all components are installed, you can run ComfyUI as described earlier.
+4. Finally, adhere to the [ComfyUI manual installation](#manual-install-windows-linux-mac) guide for Linux. Once all components are installed, you can run ComfyUI as described earlier.
 
 #### Cambricon MLUs
 
