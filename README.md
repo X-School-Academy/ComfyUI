@@ -179,6 +179,26 @@ python main.py -python main.py --cpu --cpu-vae --use-split-cross-attention
 ./webui_cpu.sh 
 ```
 
+## Apple Mac silicon
+
+You can install ComfyUI in Apple Mac silicon (M1 or M2) with any recent macOS version.
+
+> Ref to https://developer.apple.com/metal/pytorch/
+
+```bash
+git clone https://github.com/X-School-Academy/ComfyUI.git
+cd ComfyUI
+python -m venv venv_comfyui
+source venv_comfyui/bin/activate
+# PyTorch uses the new Metal Performance Shaders (MPS) backend for GPU acceleration
+pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+pip install -r requirements.txt
+pip install comfy-cli
+python main.py
+#or
+./webui.sh 
+```
+
 ## Windows Portable
 
 There is a portable standalone build for Windows that should work for running on Nvidia GPUs or for running on your CPU only on the [releases page](https://github.com/comfyanonymous/ComfyUI/releases).
@@ -277,15 +297,6 @@ Install the dependencies by opening your terminal inside the ComfyUI folder and:
 After this you should have everything installed and can proceed to running ComfyUI.
 
 ### Others:
-
-#### Apple Mac silicon
-
-You can install ComfyUI in Apple Mac silicon (M1 or M2) with any recent macOS version.
-
-1. Install pytorch nightly. For instructions, read the [Accelerated PyTorch training on Mac](https://developer.apple.com/metal/pytorch/) Apple Developer guide (make sure to install the latest pytorch nightly).
-1. Follow the [ComfyUI manual installation](#manual-install-windows-linux) instructions for Windows and Linux.
-1. Install the ComfyUI [dependencies](#dependencies). If you have another Stable Diffusion UI [you might be able to reuse the dependencies](#i-already-have-another-ui-for-stable-diffusion-installed-do-i-really-have-to-install-all-of-these-dependencies).
-1. Launch ComfyUI by running `python main.py`
 
 > **Note**: Remember to add your models, VAE, LoRAs etc. to the corresponding Comfy folders, as discussed in [ComfyUI manual installation](#manual-install-windows-linux).
 
