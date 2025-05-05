@@ -162,9 +162,9 @@ git clone https://github.com/X-School-Academy/X-ComfyUI.git
 cd X-ComfyUI
 
 # Setup virtual project environment
-python -m venv venv_comfyui
+python -m venv venv_xcomfyui
 # Activate the virtual environment
-source venv_comfyui/bin/activate
+source venv_xcomfyui/bin/activate
 
 # Install CPU only pytorch
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
