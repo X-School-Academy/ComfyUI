@@ -155,6 +155,30 @@ ComfyUI follows a weekly release cycle every Friday, with three interconnected r
 
 # Installing
 
+## CPU Only for GitHub Codespaces
+
+```bash
+git clone https://github.com/X-School-Academy/ComfyUI.git
+cd ComfyUI
+
+# Setup virtual project environment
+python -m venv venv_comfyui
+# Activate the virtual environment
+source venv_comfyui/bin/activate
+
+# Install CPU only pytorch
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# Install other dependency packages
+pip install -r requirements.txt
+# Install comfy-cli for comfy custom node development only
+pip install comfy-cli
+
+# Start WebUI at http://127.0.0.1:8188 
+python main.py -python main.py --cpu --cpu-vae --use-split-cross-attention
+#or
+./webui_cpu.sh 
+```
+
 ## Windows Portable
 
 There is a portable standalone build for Windows that should work for running on Nvidia GPUs or for running on your CPU only on the [releases page](https://github.com/comfyanonymous/ComfyUI/releases).
