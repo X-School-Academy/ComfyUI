@@ -211,7 +211,7 @@ pip install -r requirements.txt
 pip install comfy-cli
 
 # Start WebUI at http://127.0.0.1:8188 
-python main.py -python main.py --cpu --cpu-vae --use-split-cross-attention
+python main.py --cpu --cpu-vae --use-split-cross-attention
 #or
 ./webui_cpu.sh 
 ```
