@@ -23,3 +23,6 @@ venv_xcomfyui/
 *.log
 web_custom_versions/
 .DS_Store
+openapi.yaml
+filtered-openapi.yaml
+uv.lock
